@@ -4,9 +4,15 @@ html {
     font-family: Arial, "sans-serif";
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 body {
-    margin: 0;
-    height: 100%;
+    margin: 0; padding: 0;
 }
 
 .nbar {
@@ -35,9 +41,61 @@ body {
     float: right;
 }
 
+.center {
+    /* display: block; */
+    text-align: -webkit-center;
+}
 
 .main {
-    margin: auto;
+    height: 233px;
+    margin-top: 89px;
+}
+
+.logo {
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+}
+
+.search {
+    padding-top: 15px;
+    width: 100%;
+    
+}
+
+
+input {
+    margin-top: 0em;
+    padding: 10px;
+    /* display: block; */
+    width: 584px;
+    height: 44px;
+    border: solid 1px rgb(209, 209, 209);
+    border-radius: 2px;
+    font-size: 20px;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+input:focus {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.l_btn, .r_btn {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    line-height: 37px;
+    padding: 0 16px 0 16px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    display: inline-block;
+
 }
 
 .fbar {
