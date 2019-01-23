@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    font-family: Arial, "sans-serif";
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.nbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    line-height: 45px;
+}
+
+.nbar a, a:visited {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.nbl a, .nbr a {
+    padding-left: 27px;
+}
+
+.nbl {
+    margin-left: 3px;
+    float: left;
+}
+
+.nbr {
+    margin-right: 30px;
+    float: right;
+}
+
+
+.main {
+    margin: auto;
+}
+
+.fbar {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 37px;
+}
+
+.fbar a , a:visited{
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.fsr {
+    margin-right: 30px;
+    float: right;
+}
+
+.fsr a, .fsl a {
+    padding-left: 27px;
+}
+
+.fsl {
+    margin-left: 3px;
+    float: left;
+}
